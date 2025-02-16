@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 2%;
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+}
+
+.btns {
+    display: none;
+    margin: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: white;
+}
+
+.avanc {
+    position: absolute;
+    margin: 2%;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+    width: 80px;
+}
+
+#avançar {
+    display: none;
+}
+
+#avançar2 {
+    display: none;
+}
+
+#avançar3 {
+    display: none;
+}
+
+#avançar4 {
+    display: none;
+}
+
+#avançar5 {
+    display: none;
+}
+
+#avançar6 {
+    display: none;
+}
+
+#avançar7 {
+    display: none;
+}
+
+#avançar8 {
+    display: none;
+}
+
+#avançar9 {
+    display: none;
+}
+
+#finalizar {
+    display: none;
+}
+
+#timer {
+    display: none;
+    margin: 5px;
+    background-color: red;
+    height: 5px;
+    width: 280px;
+    position: absolute;
+    top: 70%;
+}
+
+#img {
+    height: 250px;
+    width: 250px;
+    background-image: unset;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#scoreTxt {
+    display: block;
+    position: absolute;
+    right: 42.5%;
+    top: 15%;
+    margin: 5%;
+}
+
+.endContainer {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 47%;
+}
+
+#start {
+    margin: 5%;
+}
